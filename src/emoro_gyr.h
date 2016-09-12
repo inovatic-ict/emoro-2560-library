@@ -32,7 +32,7 @@ public:
 	
 	/*----------------------------------------------------------------------------------------------*/
 	/* Function initialize gyroscope L3GD20 in Basic mode (without FIFO and automatic angle	axis    */
-	/* calculations). Gyroscope is initialiyed with provided output data rate and measuring scale   */
+	/* calculations). Gyroscope is initialized with provided output data rate and measuring scale   */
 	/* range. Must be called before using gyro functions: read(*x, *y, *z), readX(), readY(), 	    */
 	/* readZ()                                                                               		*/
 	/*																								*/
@@ -47,8 +47,7 @@ public:
 
 	/*----------------------------------------------------------------------------------------------*/
 	/* Function initialize gyroscope L3GD20 in Advanced mode (with FIFO buffering, filtering data	*/
-	/* and automatic angle axis calculations). Gyroscope is initialiyed with default output data 	*/
-	/* rate and default measuring scale range. (defined in: L3G_RANGE_DPS and L3G_DATA_RATE_HZ)		*/
+	/* and automatic angle axis calculations). 														*/
 	/* This function must be called befor using gyro functions related with axis angles	data		*/
 	/*																								*/
 	/* input value:		(none)																		*/
